@@ -129,7 +129,7 @@ jobs:
   publish-indexes:
     runs-on: ubuntu-latest
     needs: [build, test]
-    if: ${{ vars.ALGOLIA_APP_NAME != '' && vars.ALGOLIA_INDEX_NAME != '' && vars.CONFIG_JSON_PRODUCT != '' && vars.CONFIG_JSON_VERSION != '' }}
+    if: ${{ vars.ALGOLIA_APP_NAME != '' && vars.ALGOLIA_INDEX_NAME != '' && vars.CONFIG_JSON_PRODUCT != '' }}
     container:
       image: registry.jetbrains.team/p/writerside/builder/algolia-publisher:2.0.32-3
     env:

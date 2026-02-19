@@ -36,13 +36,13 @@
             <links narrow="true">
                 <group>
                     <title>External references</title>
-                    <a href="https://developers.cloudflare.com/cloudflare-challenges/challenge-types/challenge-pages/">CAPTCHA challenge patterns (Cloudflare)</a>
-                    <a href="https://developers.google.com/recaptcha/">reCAPTCHA documentation</a>
+                    <a href="https://developers.cloudflare.com/cloudflare-challenges/challenge-types/challenge-pages/" summary="External guide to common CAPTCHA challenge patterns.">CAPTCHA challenge patterns (Cloudflare)</a>
+                    <a href="https://developers.google.com/recaptcha/" summary="Official reCAPTCHA reference and integration documentation.">reCAPTCHA documentation</a>
                 </group>
                 <group>
                     <title>Internal placeholders</title>
-                    <a href="%admin_panel_url%">Admin panel CAPTCHA settings (placeholder)</a>
-                    <a href="%public_doc_url%">Public docs URL (placeholder)</a>
+                    <a href="%admin_panel_url%" summary="Placeholder link to internal admin configuration for CAPTCHA.">Admin panel CAPTCHA settings (placeholder)</a>
+                    <a href="%public_doc_url%" summary="Placeholder link to published external documentation URL.">Public docs URL (placeholder)</a>
                 </group>
             </links>
         </misc>

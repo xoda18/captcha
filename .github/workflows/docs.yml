@@ -164,7 +164,10 @@ jobs:
 
       - name: Publish Algolia index
         if: steps.guard.outputs.should_publish == 'true'
+        shell: bash
+        timeout-minutes: 3
         run: |
+          set -euo pipefail
           env "algolia-key=${ALGOLIA_KEY}" java -jar /opt/builder/help-publication-agent.jar \
             update-index \
             --application-name "${ALGOLIA_APP_NAME}" \

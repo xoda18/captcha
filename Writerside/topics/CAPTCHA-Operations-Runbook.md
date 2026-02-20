@@ -108,7 +108,7 @@ It depends on the trigger: IP burst uses a ~20-minute window, repeated payload u
 **What should we say externally?**
 Keep it simple: “We use adaptive verification to protect the service. It can trigger during unusual traffic patterns. We’re investigating the specific cause.”
 
-<seealso style="cards" title="Related">
+<seealso title="Related">
     <category ref="security">
         <a href="CAPTCHA-Decisioning-Overview.md" summary="Rule definitions, thresholds, and decision priority."/>
         <a href="CAPTCHA-Glossary.md" summary="Shared vocabulary used in tickets and incident reports."/>

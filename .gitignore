@@ -1,0 +1,80 @@
+# =========================
+# OS junk
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# JetBrains IDE (IntelliJ / WebStorm / Writerside plugin)
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Optional: keep these if you share run configs
+# !.idea/runConfigurations/
+
+# =========================
+# Editors
+# =========================
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Node / JS (если вдруг есть)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Python (если вдруг есть)
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# =========================
+# Java/Gradle/Maven (если вдруг есть)
+# =========================
+.gradle/
+build/
+target/
+
+# =========================
+# Writerside outputs / generated artifacts
+# (генерятся при сборке/preview/publish)
+# =========================
+output/
+Writerside/output/
+Writerside/build/
+Writerside/.cache/
+Writerside/.tmp/
+Writerside/.temp/
+Writerside/generated/
+Writerside/.writerside/
+
+# Static site output folders (на всякий)
+site/
+dist/
+
+# Offline bundles / downloads (если генерятся)
+downloads/
+*.zip
+
+# =========================
+# Logs
+# =========================
+*.log

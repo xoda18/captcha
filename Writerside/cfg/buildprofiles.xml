@@ -25,9 +25,6 @@
 
     <build-profile instance="hi">
         <sitemap priority="0.8" change-frequency="weekly"/>
-        <variables>
-            <noindex-content>false</noindex-content>
-        </variables>
     </build-profile>
 
 </buildprofiles>

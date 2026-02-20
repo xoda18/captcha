@@ -5,39 +5,32 @@
        title="CAPTCHA Documentation Hub"
        id="Starting-page">
 
-    <web-summary>Start here to understand CAPTCHA triggers, incident handling, and delivery setup.</web-summary>
+    <web-summary>Start here to understand CAPTCHA triggers and how to troubleshoot unexpected challenges.</web-summary>
 
     <section-starting-page>
         <title>Adaptive CAPTCHA for Service Protection</title>
         <description>
             This documentation is designed for non-developer tech specialists.
-            It explains when CAPTCHA is triggered, how to operate the control safely,
-            and how this documentation is published across platforms.
+            It explains when CAPTCHA is triggered and how to triage spikes or false-positive reports.
         </description>
 
         <spotlight>
-            <card href="CAPTCHA-Decisioning-Overview.md" summary="Understand the rule logic and decision flow."/>
-            <card href="CAPTCHA-Operations-Runbook.md" summary="Use this runbook during incidents and traffic anomalies."/>
+            <card href="CAPTCHA-Decisioning-Overview.md" summary="Rules, thresholds, and decision priority."/>
+            <card href="CAPTCHA-Operations-Runbook.md" summary="Triage steps, actions, and escalation."/>
         </spotlight>
 
         <primary>
             <title>Core documentation</title>
-            <card href="CAPTCHA-Decisioning-Overview.md" summary="Rule triggers, thresholds, and decision flow."/>
-            <card href="CAPTCHA-Operations-Runbook.md" summary="Incident handling and response workflow."/>
-            <card href="CAPTCHA-Glossary.md" summary="Quick definitions for key terms."/>
+            <card href="CAPTCHA-Decisioning-Overview.md" summary="When CAPTCHA is shown and why."/>
+            <card href="CAPTCHA-Operations-Runbook.md" summary="How to troubleshoot and operate the control safely."/>
+            <card href="CAPTCHA-Glossary.md" summary="Definitions for key terms used in this doc set."/>
         </primary>
-
-        <secondary>
-            <title>Delivery and publishing</title>
-            <card href="Documentation-Delivery-Setup.md" summary="Docker, CI/CD, GitHub Pages, Algolia, and indexing settings."/>
-        </secondary>
 
         <misc>
             <links narrow="true">
                 <group>
                     <title>External references</title>
-                    <a href="https://developers.cloudflare.com/cloudflare-challenges/challenge-types/challenge-pages/" summary="External guide to common CAPTCHA challenge patterns.">CAPTCHA challenge patterns (Cloudflare)</a>
-                    <a href="https://developers.google.com/recaptcha/" summary="Official reCAPTCHA reference and integration documentation.">reCAPTCHA documentation</a>
+                    <a href="https://developers.google.com/recaptcha/" summary="Background reference on CAPTCHA concepts and common patterns.">reCAPTCHA documentation</a>
                 </group>
             </links>
         </misc>

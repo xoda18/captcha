@@ -13,7 +13,7 @@
 - Starting page: `Starting-page.topic`
 - Redirect file: `Writerside/redirection-rules.xml`
 - Labels file: `Writerside/labels.list`
-- Build profile features: sitemap, indexability, offline docs, llms.txt, Algolia placeholders
+- Build profile features: sitemap, indexability, offline docs, Algolia search settings
 
 ## Docker local build
 
@@ -41,7 +41,7 @@ The workflow at `.github/workflows/docs.yml` does the following:
 
 <code-block lang="yaml" src="../codeSnippets/ci/docs-workflow-overview.yml"/>
 
-## Algolia setup placeholders
+## Algolia setup
 
 Set these in GitHub before enabling index publishing:
 
@@ -54,13 +54,12 @@ Set these in GitHub before enabling index publishing:
 
 <code-block lang="text" src="../codeSnippets/ci/algolia-required-values.txt"/>
 
-## Indexing, sitemap, offline docs, and llms.txt
+## Indexing, sitemap, and offline docs
 
 Configured in `Writerside/cfg/buildprofiles.xml`:
 
 - `<sitemap .../>` enables sitemap generation.
 - `<noindex-content>false</noindex-content>` allows search engine indexing.
-- `<llms-txt/>` enables generated `llms.txt` for LLM-friendly crawling.
 
 Configured in `.github/workflows/docs.yml`:
 
@@ -74,7 +73,7 @@ After GitHub Pages deployment, the package is available at `https://<org-or-user
 - Validate in Chrome, Edge, Firefox, and Safari.
 - Validate on at least one macOS, Windows, and Linux environment.
 - Confirm redirect behavior for known legacy links.
-- Confirm sitemap and `llms.txt` are present in generated artifacts.
+- Confirm sitemap is present in generated artifacts.
 
 <seealso>
     <category ref="delivery">

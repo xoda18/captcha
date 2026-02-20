@@ -40,9 +40,9 @@
                     <a href="https://developers.google.com/recaptcha/" summary="Official reCAPTCHA reference and integration documentation.">reCAPTCHA documentation</a>
                 </group>
                 <group>
-                    <title>Internal placeholders</title>
-                    <a href="%admin_panel_url%" summary="Placeholder link to internal admin configuration for CAPTCHA.">Admin panel CAPTCHA settings (placeholder)</a>
-                    <a href="%public_doc_url%" summary="Placeholder link to published external documentation URL.">Public docs URL (placeholder)</a>
+                    <title>Internal links</title>
+                    <a href="%admin_panel_url%" summary="Internal admin configuration for CAPTCHA controls.">Admin panel CAPTCHA settings</a>
+                    <a href="%public_doc_url%" summary="Public documentation entry point for service teams.">Public docs URL</a>
                 </group>
             </links>
         </misc>

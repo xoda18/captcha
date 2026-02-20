@@ -25,7 +25,6 @@
 
     <build-profile instance="hi">
         <sitemap priority="0.8" change-frequency="weekly"/>
-        <llms-txt/>
         <variables>
             <noindex-content>false</noindex-content>
         </variables>

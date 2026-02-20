@@ -21,14 +21,3 @@ title: Shared snippet library
 </warning>
 
 </snippet>
-
-<snippet id="placeholder-assets">
-
-<tip>
-<p>Placeholder assets to add later:</p>
-<p>1) Admin panel screenshot for CAPTCHA toggle.</p>
-<p>2) Dashboard screenshot for hourly traffic bucket.</p>
-<p>3) Example customer-facing challenge screen.</p>
-</tip>
-
-</snippet>

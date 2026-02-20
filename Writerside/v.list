@@ -9,8 +9,8 @@
     <var name="traffic_spike_multiplier" value="2"/>
     <var name="traffic_baseline_period_days" value="14"/>
     <var name="blacklist_source" value="Threat Intelligence Blacklist"/>
-    <var name="support_email" value="support@example.com"/>
-    <var name="security_email" value="security@example.com"/>
-    <var name="admin_panel_url" value="https://admin.example.com/security/captcha"/>
-    <var name="public_doc_url" value="https://docs.example.com/captcha"/>
+    <var name="support_email" value="support@captcha-service.io"/>
+    <var name="security_email" value="security@captcha-service.io"/>
+    <var name="admin_panel_url" value="https://ops.captcha-service.io/security/captcha"/>
+    <var name="public_doc_url" value="https://docs.captcha-service.io/captcha"/>
 </vars>

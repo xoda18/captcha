@@ -71,8 +71,6 @@ Typical challenge response:
 - CAPTCHA vendor internals.
 - Final customer messaging copy.
 
-<include from="lib.md" element-id="placeholder-assets"/>
-
 <seealso style="cards" title="Next">
     <category ref="operations">
         <a href="CAPTCHA-Operations-Runbook.md" summary="Incident actions and escalation steps."/>
